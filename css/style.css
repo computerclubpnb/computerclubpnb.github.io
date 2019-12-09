@@ -1,0 +1,26 @@
+.tagliner{
+    font-size: 0.5em;
+}
+.opening-title{
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #eeeeee;
+}
+.under-tags{
+    font-size: 0.5em;
+    clear: both;
+    margin: 50rem;
+}
+.display-slide-1{
+    font-family: 'Montserrat', sans-serif;
+    color: #eeeeee;
+    font-size: 1.5em;
+    font-weight: 100;;
+}
+.head-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+}
+hr{
+    width: 80%;
+}

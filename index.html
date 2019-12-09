@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Persentation Display</title>
+
+
+		<!-- Reveal JS Themes -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Highligt Reveal Js  -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="js/typed.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slide 1 -->
+				<section> 
+					<p class="opening-title" style="margin-top: 15rem;">CSS Layout</p>
+					<hr>
+					<p class="tagliner"> By <span id="name-con"></span> </p>
+					<p class="under-tags" style="margin-top:10rem"> Web Division | UKM Computer Club | Politeknik Negeri Bali </p> 
+				</section>
+				<!-- Slide 2 -->
+				<section>
+						<!-- Slide 2 Basement 1  -->
+						<section>
+								<p class="display-slide-1"> Apa Itu Display <span id="typed"></span> ? </p>
+						</section>
+
+						<!-- Slide 2 Basemant 2 -->
+						<section class="fragments">
+							<p class="head-title" style="margin-top: 4rem;"> Display Block </p>
+							<hr>
+							<p style="margin-top: 2rem;font-size: 1em;">Display Block merupakan properti CSS untuk  membuat <span class="fragment" style="color: #3498db;"> <i><b>Layer Html</b></i> </span> <span class="fragment">mengalir ke samping dari</span> <span class="fragment" style="color:#2ecc71;"> <i><b>Kiri</b></i> </span> <span class="fragment">ke</span> <span class="fragment" style="color:#e74c3c"> <i><b>Kanan</b></i> </span></p>
+						</section>
+
+						<!-- Slide 2 Basement 3 -->
+						<section>
+								<p class="head-title" style="margin-top: 4rem;"> Display Inlime </p>
+								<hr>
+								<p style="margin-top: 2rem;font-size: 1em;">Display Inline merupakan properti CSS untuk  membuat <span class="fragment" style="color: #3498db;"> <i><b>Layer Html</b></i> </span> <span class="fragment"> Menutup Penuh </span> <span class="fragment" style="color:#f1c40f;"> <i><b>Layar</b></i> </span> </p>
+						</section>
+						<!-- Slide 2 Basement 4 -->
+						<section>
+								<p class="head-title" style="margin-top: 4rem;font-size: 2em;"> Display Inline-Block </p>
+								<hr>
+								<p style="margin-top: 2rem;font-size: 1em;">Display Inline Block merupakan properti CSS yang memiliki kriteria yang sama seperti <span class="fragment" style="color: #e67e22;"><i><b>display inline</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #e74c3c;"><i><b>display block</b></i></span> </p>
+						</section>
+				</section>
+
+				<!-- Slide 3 -->
+				<section>
+						<!-- Slide 3 Basement 1  -->
+						<section>
+							<p class="head-title"> <span id="char"></span> </p>
+							<hr>
+							<p class="tagliner">Bagaimana Karakteristik dari masing masing dari properti berikut ?</p>
+						</section>
+						<!-- Slide 3 Basemant 2 -->
+						<section class="fragments">
+							<p class="head-title">Display Block</p>
+							<hr>
+							<ul>
+								<li class="fragment">Mengalir ke <span class="fragment" style="color: #e67e22;"><i><b>Samping</b></i></span></li>
+								<li class="fragment">Ukurannya <span class="fragment"> memenuhi </span><span class="fragment" style="color: #27ae60;"><i><b>Containernya</b></i></span></li>
+								<li class="fragment">Dapat mengatur <span class="fragment" style="color: #e74c3c;"><i><b>width</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #e74c3c;"><i><b>height</b></i></span></li>
+								<li class="fragment"><span class="fragment" style="color: #3498db;"><i><b>Margin</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #3498db;"><i><b>padding</b></i></span> <span class="fragment">hanya mempengaruhi elemen</span> <span class="fragment" style="color: #f1c40f;"><i><b>secara horizontal</b></i></span>, <span class="fragment">tidak</span> <span class="fragment" style="color: #f1c40f;"><i><b>Vertikal</b></i></span></li>
+							</ul>
+						</section>
+
+						<!-- Slide 3 Basement 3 -->
+						<section>
+								<h2 class="head-title"> Display Inline </h2>
+								<hr>
+								<ul>
+									<li class="fragment">Mengalir ke <span class="fragment" style="color: #e67e22;"><i><b>Kebawah</b></i></span></li>
+									<li class="fragment">Ukurannya <span class="fragment" style="color: #27ae60;"><b><i> sesuai</i></b></span> <span class="fragment">dengan</span> <span class="fragment" style="color: #27ae60;"><i><b>konten</b></i></span> <span class="fragment"> di dalamnya</span></li>
+									<li class="fragment">Tidak dapat mengatur <span class="fragment" style="color: #e74c3c;"><i><b>width</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #e74c3c;"><i><b>height</b></i></span></li>
+									<li class="fragment"><span class="fragment" style="color: #3498db;"><i><b>Margin</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #3498db;"><i><b>padding</b></i></span> <span class="fragment">hanya mempengaruhi elemen</span> <span class="fragment" style="color: #f1c40f;"><i><b>secara horizontal</b></i></span>, <span class="fragment">tidak</span> <span class="fragment" style="color: #f1c40f;"><i><b>Vertikal</b></i></span></li>
+								</ul>
+						</section>
+
+						<!-- Slide 3 Basement 4 -->
+						<section>
+								<h2 class="head-title"> Display Inline-block </h2>
+								<hr>
+								<ul>
+									<li class="fragment">Memiliki sifat dasar <span class="fragment" style="color: #f1c40f;"><b><i>display inline</i></b></span> <span class="fragment">(mengalir ke samping)</span> </span></li>
+									<li class="fragment">Dapat mengatur <span class="fragment" style="color: #e74c3c;"><i><b>width</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #e74c3c;"><i><b>height</b></i></span></li></ul>
+						</section>
+				</section>
+
+
+				<!-- Slide 4 -->
+				<section>
+						<!-- Slide 4 Basement 1  -->
+						<section>
+							<p class="head-title"> <span id="taged"></span> </p>
+							<hr>
+							<p class="tagliner">Tag apa saja yang ada didalam properti berikut</p>
+						</section>
+						<!-- Slide 4 Basemant 2 -->
+						<section class="fragments">
+								<h2 class="head-title"> Display Block </h2>
+								<hr>
+								<p > display inline terdiri dari tag 
+									<span class="fragment" style="color: #1abc9c;"> <i><b> div </b></i> </span>
+									<span class="fragment" style="color: #2ecc71;"> <i><b> h1 - h6 </b></i></span>
+									<span class="fragment" style="color: #3498db;"> <i><b> hr </b></i></span>
+									<span class="fragment" style="color: #9b59b6;"><i><b> p </b></i></span>
+									<span class="fragment" style="color: #e67e22;"><i><b> form </b></i></span>
+									<span class="fragment" style="color: #e74c3c;"><i><b> ul, li , ol  </b></i></span>
+									<span class="fragment" style="color: #f1c40f;"><i><b> table  </b></i></span>
+									<span class="fragment" style="color: #f39c12;"><i><b> dd,dl </b></i></span> 
+								</p>
+						</section>
+
+						<!-- Slide 4 Basement 3 -->
+						<section class="fragments">
+								<h2 class="head-title"> Display Inline </h2>
+								<hr>
+								<p > berbeda dengan display block , display inline terdiri dari tag 
+									<span class="fragment" style="color: #1abc9c;"> <i><b> span </b></i> </span>
+									<span class="fragment" style="color: #2ecc71;"> <i><b> a </b></i></span>
+									<span class="fragment" style="color: #3498db;"> <i><b> i </b></i></span>
+									<span class="fragment" style="color: #9b59b6;"><i><b> b </b></i></span>
+									<span class="fragment" style="color: #e67e22;"><i><b> img </b></i></span>
+									<span class="fragment" style="color: #e74c3c;"><i><b> label  </b></i></span>
+									<span class="fragment" style="color: #f1c40f;"><i><b> input  </b></i></span>
+									<span class="fragment" style="color: #f39c12;"><i><b> textarea </b></i></span> 
+								</p>
+						</section>
+
+						<!-- Slide 4 Basement 4 -->
+						<section class="fragements">
+								<h2 class="head-title"> Display Inline-block </h2>
+								<hr>
+								<p > display inline-block terdiri dari tag yang ada di <span class="fragment" style="color: #f1c40f;"><i><b>Display Block</b></i></span> <span class="fragment">dan</span> <span class="fragment" style="color: #2ecc71;"><i><b>Display Inline</b></i></span></p>
+						</section>
+				</section>
+
+
+
+				<!-- Slide 5 -->
+				<section class="fragments">
+					<p><span class="fragment"> Ayo</span> <span class="fragment"> Kita </span> <span class="fragment">Coba</span> <span class="fragment">:D</span></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<!-- Reveal JS Slide Managemen -->
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+		<!-- For Typed JS -->
+		<script type="text/javascript">
+			new Typed('#typed',{
+			strings : ['Properties','Block','Inline ','','Inline-block'],
+			typeSpeed : 50,
+			backSpeed : 50,
+			delaySpeed : 10,
+			loop : true
+			});
+		</script>
+		<script type="text/javascript">
+			new Typed('#char',{
+			strings : ['Characteristic','Karakteristik ','特徴'],
+			typeSpeed : 50,
+			backSpeed : 50,
+			delaySpeed : 10,
+			loop : true
+			});
+		</script>
+		<script type="text/javascript">
+			new Typed('#taged',{
+			strings : ['Tag Properties','Komponen Tag ','成分'],
+			typeSpeed : 50,
+			backSpeed : 50,
+			delaySpeed : 10,
+			loop : true
+			});
+		</script>
+		<script type="text/javascript">
+			new Typed('#name-con',{
+			strings : ['Juliana Putra','Surje','Arya Sadiva','Darmi Asih'],
+			typeSpeed : 50,
+			backSpeed : 50,
+			delaySpeed : 10,
+			loop : true
+			});
+		</script>
+	</body>
+</html>
